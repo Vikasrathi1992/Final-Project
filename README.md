@@ -34,12 +34,12 @@ action?
 
 ## The Datasets
 
-1. devices.csv
+### 1. devices.csv
 a table of devices associated with a user
 - brand: string corresponding to the phone brand
 - user_id: string uniquely identifying the user
 
-2. users.csv
+### 2. users.csv
 a table of user data
 - user_id: string uniquely identifying the user
 - birth_year: integer corresponding to the user’s birth year
@@ -59,7 +59,7 @@ marketing email notifications
 referred by the selected user (successfully means users who have actually installed the app
 and are able to use the product)
 
-3. notifications.csv
+### 3. notifications.csv
 a table of notifications that a user has received
 - reason: string indicating the purpose of the notification
 - channel: string indicating how the user has been notified
@@ -67,7 +67,7 @@ a table of notifications that a user has received
 - user_id: string uniquely identifying the user
 - created_date: datetime indicating when the notification has been sent
 
-4. transactions.csv
+### 4. transactions.csv
 a table with transactions that a user made
 - transaction_id: string uniquely identifying the transaction
 - transactions_type: string indicating the type of the transaction
